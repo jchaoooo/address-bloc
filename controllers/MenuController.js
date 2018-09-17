@@ -9,10 +9,7 @@ module.exports = class MenuController {
         message: "Please choose from an options below: ",
         choices: [
           "Add new contact",
-<<<<<<< HEAD
           "Get current time",
-=======
->>>>>>> 338f9fbae6bd2f0a0913f6451d0fae4fde1bd607
           "Exit"
         ]
       }
@@ -27,12 +24,9 @@ module.exports = class MenuController {
         case "Add new contact":
           this.addContact();
           break;
-<<<<<<< HEAD
         case "Get current time":
           this.getDate();
           break;
-=======
->>>>>>> 338f9fbae6bd2f0a0913f6451d0fae4fde1bd607
         case "Exit":
           this.exit();
         default:
@@ -55,7 +49,6 @@ module.exports = class MenuController {
     this.main();
   }
 
-<<<<<<< HEAD
   getDate() {
     let date = new Date();
     let todaysDate = date.toDateString();
@@ -63,8 +56,6 @@ module.exports = class MenuController {
     console.log(todaysDate + ' ' + todaysTime);
   }
 
-=======
->>>>>>> 338f9fbae6bd2f0a0913f6451d0fae4fde1bd607
   exit() {
     console.log("Thanks for using AddressBloc!");
     process.exit();
