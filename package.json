@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jchaoooo/address-bloc/issues"
   },
-  "homepage": "https://github.com/jchaoooo/address-bloc#readme"
+  "homepage": "https://github.com/jchaoooo/address-bloc#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0"
+  }
 }
